@@ -4,6 +4,7 @@ FORTUNES_DIR=$ZSH_CUSTOM/plugins/$PLUGIN_NAME/fortunes
 DATA_FILE_PATH=$FORTUNES_DIR/$DATA_FILE
 
 if [ ! -f $DATA_FILE_PATH.dat ]; then
+    echo "strfile'ing... $DATA_FILE_PATH.dat"
     strfile $DATA_FILE_PATH $DATA_FILE_PATH.dat
 fi
 
