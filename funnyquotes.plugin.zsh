@@ -9,5 +9,5 @@ if [ ! -f $DATA_FILE_PATH.dat ]; then
 fi
 
 alias funny_quotes="fortune -a $FORTUNES_DIR"
-alias funny_quotes_cow="funny_quotes | cowthink"
+alias funny_quotes_cow="funny_quotes | cowsay"
 funny_quotes_cow
